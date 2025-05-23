@@ -1,5 +1,5 @@
 {
-  "name": "damienharper/auditor-bundle",
+  "name": "recranet/auditor-bundle",
   "type": "symfony-bundle",
   "description": "Integrate auditor library in your Symfony projects.",
   "keywords": [
@@ -14,13 +14,17 @@
     {
       "name": "Damien Harper",
       "email": "damien.harper@gmail.com"
+    },
+    {
+      "name": "Simon Decloedt",
+      "email": "simon@recranet.com"
     }
   ],
   "require": {
     "php": ">=8.2",
     "ext-intl": "*",
-    "damienharper/auditor": "^3.2",
     "doctrine/doctrine-bundle": "^2.0",
+    "recranet/auditor": "^0.1.0",
     "symfony/asset": "^5.4|^6.4|^7.0",
     "symfony/doctrine-bridge": "^5.4|^6.4|^7.0",
     "symfony/event-dispatcher": "^5.4|^6.4|^7.0",
@@ -38,8 +42,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "DH\\AuditorBundle\\Tests\\": "tests",
-      "DH\\Auditor\\Tests\\": "vendor/damienharper/auditor/tests"
+      "DH\\AuditorBundle\\Tests\\": "tests"
     }
   },
   "require-dev": {
