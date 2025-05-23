@@ -30,7 +30,7 @@
     "php": ">=8.2",
     "ext-intl": "*",
     "doctrine/doctrine-bundle": "^2.0",
-    "recranet/auditor": "^0.1.1",
+    "recranet/auditor": "^0.1.2",
     "symfony/asset": "^5.4|^6.4|^7.0",
     "symfony/doctrine-bridge": "^5.4|^6.4|^7.0",
     "symfony/event-dispatcher": "^5.4|^6.4|^7.0",
